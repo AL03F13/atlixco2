@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title> Mi aplicacion </title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/atlixco.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <script src="phonegap.js" type="text/javascript"></script> 
+ </head>
+
+ <body>
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>ATLIXCO </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div style="width:50%" data-role="controlgroup" data-type="vertical">
+     <a href="#mypanel" id="botonmenu" class="ui-btn">MENU</a>
+    </div>
+    <h2 style="text-align:justify">Esta aplicacion esta desarrollada para conocer un poco la ciudad de ATLIXCO, sus lugares de interes, su gastronomia,etc.</h2>
+    <img src="atlixco.jpg" style="width:40%;">
+   </div>
+   <div data-role="panel" id="mypanel" data-display="overlay">
+     <a href="#FIESTAS_TRADICIONALES" id="" class="ui-btn">FIESTAS TRADICIONALES</a>
+     <a href="#GASTRONOMIA" id="" class="ui-btn">GASTRONOMIA</a>
+     <a href="#LUGARES_DE_INTERES" id="" class="ui-btn">LUGARES DE INTERES</a>
+     <a href="#RECORRIDOS" id="" class="ui-btn">RECORRIDOS</a>
+     <a href="#CONSEJOS" id="" class="ui-btn">CONSEJOS</a>
+     <a href="#IMPERDIBLES" id="" class="ui-btn">IMPERDIBLES</a>
+   </div>
+
+  </div>
+
+  <div data-role="footer">
+    <h1>ATLIXCO</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+<!-- FIESTAS TRADICIONALES -->
+ <div data-role="page" id="FIESTAS_TRADICIONALES" >   
+  <div data-role="header">
+    <h1>TRADICIONES</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div style="background-color:#09F">
+     <h4>Fiesta de Reyes</h4>
+    </div>
+    <p style="text-align:jutsify">Es un majestuoso desfile de 5 km de largo en el que más de 15 carros alegóricos, comparsas y bandas locales recorren las calles principales de la Ciudad. Los reyes magos visitan Atlixco el 5 de Enero gracias a que los niños hacen un Festival de la Ilusión en el que les piden que no se olviden de los más necesitados. Con asistencia de más de 60 mil espectadores la Fiesta de Reyes es desde hace mas de 18 años, un evento que involucra a gran parte de la comunidad del Municipio. ¡¡¡Cada año nuevos carros alegóricos!!! VEN Y DISFRÚTALO.</p>
+    
+    <a href="#fiesta_reyes" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="fiesta_de_reyes.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="fiesta_reyes" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="fiesta_de_reyes.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#fiesta_reyes2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="fiesta_de_reyes2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="fiesta_reyes2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="fiesta_de_reyes2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Semana Santa</h4>
+    </div>
+    <p style="text-align:justify">En esta temporada en la comunidad de Nexatengo desde hace más de 17 años se adornan las calles con flores, hojas de pino y alfombras de aserrín, por donde pasa la imagen del Sr. Jesús de Nazareth en donde más de 8 mil personas provenientes de varias comunidades caminan 8 km en silencio, derivado de ello el Nombre de la Procesión del Silencio.
+
+De igual forma en las principales calles de la ciudad de Atlixco se realiza una de las procesiones de Viernes Santo más impactantes de la región, donde varios hombres conocidos como los Engrillados, recorren las calles encadenados con más de 50 kilos a cuestas, portando coronas de espinas, así como púas o puntas que se colocan en distintas partes del cuerpo, principalmente en hombros y pies, en cumplimiento de alguna promesa o agradecimiento a Dios por un favor recibido. En ambas procesiones se puede apreciar majestuosos tapetes de aserrín, elaborados por los propios lugareños.</p>
+    <a href="#Semana_Santa" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="semana_santa.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Semana_Santa" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="semana_santa.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#semana_santa2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="semana_santa2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="semana_santa2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="semana_santa2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Expo Flores y Plantas</h4>
+    </div>
+    <p style="text-align:justify">En el mes de julio en el Recinto Ferial de Atlixco se realiza La Expo Flores y Plantas, donde productores de la región con toda una gama de Flores y Plantas exhiben su producto que le ha dado fama a los atlixquenses a nivel nacional en cuanto a la producción de Flor.</p>
+    
+    <a href="#Expo_Flores_y_Plantas" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="expo_flores_plantas.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Expo_Flores_y_Plantas" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="expo_flores_plantas.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#Expo_Flores_y_Plantas2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="expo_flores_plantas2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Expo_Flores_y_Plantas2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="expo_flores_plantas2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Feria de la Cecina</h4>
+    </div>
+    <p style="text-align:justify">En la última semana de julio primera de agosto se celebra uno de los platillos típicos de nuestra región, La Cecina, en un ambiente familiar amenizado con eventos artísticos, todo esto en el Recinto Ferial del Municipio.</p>
+    <a href="#Feria_de_la_Cecina" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="feria_cecina.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Feria_de_la_Cecina" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="feria_cecina.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#Feria_de_la_Cecina2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="feria_cecina2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Feria_de_la_Cecina2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="feria_cecina2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Atlixcayotontli</h4>
+    </div>
+    <p style="text-align:justify">“La fiesta chica de la gran familia Atlixquense”, tiene lugar en el Cerro de San Miguel dos fines de semana antes del Huey Atlixcáyotl; es decir, el segundo domingo del mes de Septiembre. En ella se reúnen danzantes de las tres regiones que convergen La Región del Valle, La Región de La Tierra Caliente y la Región de los Volcanes (también conocida como la región de la Sierra Nevada).</p>
+    <a href="#Atlixcayotontli" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Atlixcayotontli.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Atlixcayotontli" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Atlixcayotontli.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#Atlixcayotontli2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Atlixcayotontli2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Atlixcayotontli2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Atlixcayotontli2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Fiestas Patrias</h4>
+    </div>
+    <p style="text-align:justify">Durante todo el mes de Septiembre se celebran diferentes actividades cívicas, artísticas deportivas y culturales. Una de las más populares es la cabalgata que se celebra el día 14 con más de 300 jinetes que recorren las principales avenidas de la ciudad. La cabalgata culmina en una verbena popular en el zócalo de la ciudad. Además, del espectáculo de pirotecnia el día 15 después del tradicional grito de independencia.</p>
+    <a href="# Fiestas_Patrias" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="fiestas_patrias.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Fiestas_Patrias" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="fiestas_patrias.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#Fiestas_Patrias2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="fiestas_patrias2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Fiestas_Patrias2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="fiestas_patrias2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Huey Atlixcáyotl</h4>
+    </div>
+    <p style="text-align:justify">“La Gran Fiesta de Atlixco”. Con una tradición de más de 48 años de música, danza y artesanías de las 11 regiones etnográficas del Estado de Puebla. Fue declarado Patrimonio Cultural del estado de Puebla el 29 de Julio de 1996. Hoy es la gran fiesta de los poblanos. Se celebra el último domingo de Septiembre en el Cerro de San Miguel.</p>
+    <a href="#Huey_Atlixcáyotl" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Huey_Atlixcáyotl.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Huey_Atlixcáyotl" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Huey_Atlixcáyotl.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#Huey_Atlixcáyotl2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Huey_Atlixcáyotl2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Huey_Atlixcáyotl2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Huey_Atlixcáyotl2.jpg" style="max-height:500px">
+    </div>
+    <div style="background-color:#09F">
+     <h4> Desfile de Calaveras</h4>
+    </div>
+    <p style="text-align:justify">El 2 de Noviembre la Ciudad de Atlixco se viste de calaveras para recorrer las principales calles en un festivo y colorido desfile que busca preservar nuestras tradiciones populares.¡VEN A DISFRUTAR ESTA NOCHE DE CALAVERAS!</p>
+    <a href="#Desfile_de_Calaveras" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="desfile_calaveras.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Desfile_de_Calaveras" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="desfile_calaveras.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#Desfile_de_Calaveras2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="desfile_calaveras2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Desfile_de_Calaveras2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="desfile_calaveras2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4> Feria de la Nochebuena</h4>
+    </div>
+    <p style="text-align:justify">A partir del 25 de Noviembre los mejores productores de la región exponen y venden una variedad enorme de plantas de Nochebuena a precios competitivos en mayoreo y menudeo concentrados en el Recinto Ferial de Atlixco.</p>
+    <a href="#Feria_de_la_Nochebuena" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="feria_nochebuena.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Feria_de_la_Nochebuena" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="feria_nochebuena.jpg" style="max-height:500px">
+    </div>
+    
+    
+    <a href="#Feria_de_la_Nochebuena2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="feria_nochebuena2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Feria_de_la_Nochebuena2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="feria_nochebuena2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Villa Iluminada</h4>
+    </div>
+    <p style="text-align:justify">Más de 45 días Atlixco se ilumina con espectaculares figuras que adornarán calles y avenidas en un recorrido que te dejara maravillado, además podrás disfrutar de eventos culturales y artísticos que harán de tu estancia algo mágico, ¡¡¡VEN y SÉ TESTIGO!!!</p>
+    <a href="#Villa_Iluminada" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="villa_iluminada.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Villa_Iluminada" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="villa_iluminada.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Villa_Iluminada2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="villa_iluminada2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Villa_Iluminada2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="villa_iluminada2.jpg" style="max-height:500px">
+    </div>
+      
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <a href="#principal" id="A" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+  </div>
+ </div>  
+ <!-- FIESTAS TRADICIONALES -->
+ 
+ <!-- GASTRONOMIA -->
+ <div data-role="page" id="GASTRONOMIA" >   
+  <div data-role="header">
+    <h1>GASTRONOMIA</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div style="background-color:#09F">
+     <h2>COMIDA TÍPICA DE ATLIXCO</h2>
+    </div>
+    <a href="#GASTRONOMIA" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="gastronomia.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="GASTRONOMIA" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="gastronomia.jpg" style="max-height:500px">
+    </div>
+    <a href="#GASTRONOMIA2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="gastronomia2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="GASTRONOMIA2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="gastronomia2.jpg" style="max-height:500px">
+    </div>
+    <a href="#GASTRONOMIA3" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="gastronomia3.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="GASTRONOMIA3" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="gastronomia3.jpg" style="max-height:500px">
+    </div>      
+    <h4>No te puedes ir de Atlixco sin probar estos platillos en sus tradicionales Mercados o restaurantes del municipio.</h4>
+    <h5>CECINA </h5>
+    <h5>Taco Placero</h5>
+    <h5>Enchiladas</h5>
+    <h5>Barbacoa</h5>
+    <div style="background-color:#09F">
+     <h3> PIPIANES, MOLES Y ADOBOS.</h3>
+    </div>
+    <h5>Mole Poblano</h5>
+    <h5>Mole de Olla</h5>
+    <h5>Mole de Panza</h5>
+    <h5>Mole Verde o Pipián Verde</h5>
+    <h5>El Pipián Rojo</h5>
+    <h5>Adobo</h5>
+    <h5>Chiles en nogada</h5>
+    <div style="background-color:#09F">
+     <h3>ANTOJITOS</h3>
+    </div>
+    <h5>Cemitas</h5>
+    <h5>Chalupas</h5>
+    <h5>Pambazos</h5>
+    <h5>Molotes</h5>
+    <h5>Tostadas</h5>
+    <h5>Tamales</h5>
+    <h5>Atole de Cacahuate</h5>
+    <h5>Esquites y Elotes</h5>
+    <div style="background-color:#09F">
+     <h3>POSTRES</h3>
+    </div>
+    <h5>Jeripa</h5>
+    <h5>Dulce de Calabaza y Tejocote y Camote</h5>
+    <h5>Nieves y Sorbete</h5>
+    
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <a href="#principal" id="B" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+  </div>
+ </div>  
+ <!-- GASTRONOMIA -->
+ 
+ <!-- LUGARES_DE_INTERES -->
+ <div data-role="page" id="LUGARES_DE_INTERES" >   
+  <div data-role="header">
+    <h1>LUGARES DE INTERES</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <h3>CIUDAD DE ATLIXCO</h3>
+    <h4>Un recorrido por sus principales iglesias y museos que datan desde los siglos XVII Y XVIII</h4>
+    <div style="background-color:#09F">
+     <h4>Hospital Municipal y Pinacoteca San Juan de Dios</h4>
+    </div>
+    <p style="text-align:justify">Uno de los pocos hospitales de la época de la colonia que sigue conservando su uso original, así como una fuente de piedra que representa a San Adrián luchando con un león. En la Pinacoteca podrás apreciar la colección de la vida de San Juan de Dios, fundador de la orden de los “Juaninos” quienes se encargaban de los hospitales en la Nueva España. El acceso a la pinacoteca municipal se solicita previa cita en las oficinas de turismo. A un lado del hospital se encuentra la iglesia dedicada a San Rafael Arcángel, a quienes los juaninos se encomendaban. Está prohibido tomar fotos y entrar con alimentos.</p>
+    <a href="#hospital_municipal" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Hospital_Municipal_y_Pinacoteca_San_Juan_de_Dios.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="hospital_municipal" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Hospital_Municipal_y_Pinacoteca_San_Juan_de_Dios.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#hospital_municipal2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Hospital_Municipal_y_Pinacoteca_San_Juan_de_Dios2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="hospital_municipal2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Hospital_Municipal_y_Pinacoteca_San_Juan_de_Dios2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Colección Pictórica del Templo de La Merced</h4>
+    </div>
+    <p style="text-align:justify">La Asociación Civil “Adopte una Obra de Arte” a través de una campaña de rescate pudo entregar al patrimonio de la ciudad una colección de lienzos sobre los frailes mercedarios así como el patrocionio de la Virgen de La Merced, un hermoso cuadro que no debes dejar de admirar, recuerda que la historia también se encuentra en las iglesias.
+</p>
+    <a href="#Colección_Pictórica_del_Templo_de_La_Merced" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Colección_Pictórica_del_Templo_de_La_Merced.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Colección_Pictórica_del_Templo_de_La_Merced" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Colección_Pictórica_del_Templo_de_La_Merced.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Colección_Pictórica_del_Templo_de_La_Merced2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Colección_Pictórica_del_Templo_de_La_Merced2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Colección_Pictórica_del_Templo_de_La_Merced2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Colección_Pictórica_del_Templo_de_La_Merced2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Iglesia de San Félix Papa</h4>
+    </div>
+    <p style="text-align:justify">Otra de las Iglesias beneficiadas por la Asociación “Adopte una Obra de Arte” es la dedicada al Patrono de la ciudad, cuyos lienzos datan del siglo XVII y resguarda una colección donde los apóstoles se encuentran vestidos de papas; la imagen del Santo Patrono de la Ciudad próximamente será rehabilitada.
+</p>
+    <a href="#Iglesia_de_San_Félix_Papa" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Iglesia_de_San_Félix_Papa.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Iglesia_de_San_Félix_Papa" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Iglesia_de_San_Félix_Papa.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Iglesia_de_San_Félix_Papa2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Iglesia_de_San_Félix_Papa2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Iglesia_de_San_Félix_Papa2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Centro Cultural el Carmen</h4>
+    </div>
+    <p style="text-align:justify">Ubicado dentro del Exconvento del Carmen no te puedes perder el recorrido por las salas con contenido prehispánico, de tradiciones con la sala del Huey Atlixcayotl donde las etnias del municipio nos muestran un poquito de su cultura; asimismo el recorrido por la sala de Arte Sacro con las obras de Santa Clara, Memorias de un Templo.</p>
+    <a href="#Centro_Cultural_el_Carmen" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Centro_Cultural_el_Carmen..jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Centro_Cultural_el_Carmen" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Centro_Cultural_el_Carmen..jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Centro_Cultural_el_Carmen2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Centro_Cultural_el_Carmen2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Centro_Cultural_el_Carmen2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Centro_Cultural_el_Carmen2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Ex Convento Franciscano</h4>
+    </div>
+    <p style="text-align:justify">Anímate a caminar 5 minutos desde el zócalo de la ciudad y disfruta de esta iglesia tipo fuerte, única en el Estado, además de su bello retablo restaurado por la Asociación “Adopte una Obra de Arte” y podrás admirar la hermosa vista del poniente de la ciudad desde su atrio. ¡Muchas parejas escogen esta bella iglesia para su boda!</p>
+    <a href="#Ex_Convento_Franciscano" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Ex_Convento_Franciscano.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Ex_Convento_Franciscano" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Ex_Convento_Franciscano.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Ex_Convento_Franciscano2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Ex_Convento_Franciscano2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Ex_Convento_Franciscano2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Ex_Convento_Franciscano2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Murales de Palacio Municipal</h4>
+    </div>
+    <p style="text-align:justify">En el interior de Palacio Municipal así como en la planta baja del exterior (Ex Biblioteca), disfruta los murales de la Fundación de Atlixco, la Historia de la Educación en México o los Héroes de la Independencia y Reforma con diferentes estilos pictóricos, así como la vida obrera y textil que marco una época de grandeza en Atlixco, hasta los acontecimientos más sobresalientes en el municipio como lo es la Villa Iluminada.</p>
+    <a href="#Murales_de_Palacio_Municipal" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Murales_de_Palacio_Municipal.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Murales_de_Palacio_Municipal" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Murales_de_Palacio_Municipal.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Murales_de_Palacio_Municipal2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Murales_de_Palacio_Municipal2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Murales_de_Palacio_Municipal2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Murales_de_Palacio_Municipal2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Mirador Cerro de San Miguel</h4>
+    </div>
+    <p style="text-align:justify">Si tienes ánimo aventurero te invitamos a subir al Cerro de San Miguel para que eches un vistazo de la Ciudad desde sus miradores y si todavía te quedan un poco de fuerzas, que subas la escalinata hasta la Ermita dedicada al Arcángel San Miguel; que cuenta la historia, encerró al diablito que hacía de las suyas en los solares dentro del pozo que se encuentra ahí. Su fiesta se celebra el 29 de Septiembre.</p>
+    <a href="#Mcerro_sanmiguel" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="cerro_san_miguel.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Mcerro_sanmiguel" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="cerro_san_miguel.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Mcerro_sanmiguel2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="cerro_san_miguel2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Mcerro_sanmiguel2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="cerro_san_miguel2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Calle de las Flores</h4>
+    </div>
+    <p style="text-align:justify">Sobre la Avenida Hidalgo se encuentra esta emblemática calle denominada la Calle de las Flores, donde podrás apreciar sus renovadas fachadas adornadas con flores del municipio. Durante el recorrido podrás apreciar las casonas que fueron reconstruidas, hasta llegar a la Escalera Ancha lugar donde se realizaba el Huey Atlixcayotl y ahora tras su remodelación encontraras un reloj gigante hecho a base de flores.</p>
+    <a href="#Calle_de_las_Flores" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Calle_de_las_Flores.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Calle_de_las_Flores" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Calle_de_las_Flores.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Calle_de_las_Flores2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Calle_de_las_Flores2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Calle_de_las_Flores2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Calle_de_las_Flores2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Viveros de Cabrera</h4>
+    </div>
+    <p style="text-align:justify">Sobre la Avenida Hidalgo se encuentra esta emblemática calle denominada la Calle de las Flores, donde podrás apreciar sus renovadas fachadas adornadas con flores del municipio. Durante el recorrido podrás apreciar las casonas que fueron reconstruidas, hasta llegar a la Escalera Ancha lugar donde se realizaba el Huey Atlixcayotl y ahora tras su remodelación encontraras un reloj gigante hecho a base de flores.</p>
+    <a href="#Viveros_de_Cabrera" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Viveros_de_Cabrera.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Viveros_de_Cabrera" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Viveros_de_Cabrera.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Viveros_de_Cabrera2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Viveros_de_Cabrera2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Viveros_de_Cabrera2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Viveros_de_Cabrera2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Centro Vacacional Metepec</h4>
+    </div>
+    <p style="text-align:justify">Bello Centro Vacacional, localizado en el Estado de Puebla, inmerso en un bosque que enriquece el espíritu con su apacible atmósfera. En Atlixco-Metepec usted disfrutará de actividades recreativas como la pesca deportiva, rodeado de un hermoso y verde paisaje con temperatura templada en un ambiente relajante, donde podrá admirar al legendario volcán Popocatépetl. Metepec es el Centro Vacacional que le brinda la paz y tranquilidad que siempre ha buscado para toda su familia.</p>
+    <a href="#Centro_Vacacional_Metepec" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Centro_Vacacional_Metepec.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Centro_Vacacional_Metepec" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Centro_Vacacional_Metepec.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Centro_Vacacional_Metepec2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Centro_Vacacional_Metepec2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Centro_Vacacional_Metepec2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Centro_Vacacional_Metepec2.jpg" style="max-height:500px">
+    </div>
+    
+     <div style="background-color:#09F">
+     <h4>Museo Obrero Metepec</h4>
+    </div>
+    <p style="text-align:justify">Albergado dentro del Centro Vacacional, narra la historia de una de las fábricas más importantes del país durante la Revolución Mexicana. En sus salas podemos conocer a través de fotografías, mapas y testimonios los factores que hicieron posible la construcción de la fábrica de hilados y tejidos, también se presentan imágenes y documentos de la vida sindical y política del caserío industrial.</p>
+    <a href="#Museo_Obrero_Metepec" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Museo_Obrero_Metepec.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Museo_Obrero_Metepec" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Museo_Obrero_Metepec.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Museo_Obrero_Metepec2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="Museo_Obrero_Metepec2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Museo_Obrero_Metepec2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="Museo_Obrero_Metepec2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Estadio de Beisbol</h4>
+    </div>
+    <p style="text-align:justify">Un espacio que brinda las facilidades para la práctica del Béisbol en el municipio de Metepec, trabajando por el bienestar de los ciudadanos.</p>
+    <a href="#Estadio_de_Beisbol" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="estadio_beisbol.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Estadio_de_Beisbol" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="estadio_beisbol.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Estadio_de_Beisbol2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="estadio_beisbol2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Estadio_de_Beisbol2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="estadio_beisbol2.jpg" style="max-height:500px">
+    </div>
+    
+    <div style="background-color:#09F">
+     <h4>Balneario Axocopan</h4>
+    </div>
+    <p style="text-align:justify">Privilegiado por contar con un manantial que emana de las faldas del Volcán Popocatepetl, donde podrás experimentar una sensación terapéutica al sumergirte en las aguas.</p>
+    <a href="#Balneario_Axocopan" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="axocopan.jpg"style="width:15%;">
+    </a>
+    <div data-role="popup" id="Balneario_Axocopan" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="axocopan.jpg" style="max-height:500px">
+    </div>
+    
+    <a href="#Balneario_Axocopan2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="axocopan2.jpg" style="width:15%;">
+    </a>
+    <div data-role="popup" id="Balneario_Axocopan2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="axocopan2.jpg" style="max-height:500px">
+    </div>
+    
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <a href="#principal" id="C" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+  </div>
+ </div>  
+ <!-- LUGARES_DE_INTERES -->
+ 
+ <!-- RECORRIDOS -->
+ <div data-role="page" id="RECORRIDOS" >   
+  <div data-role="header">
+    <h1>RECORRIDOS</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+   <div style="background-color:#09F">
+     <h4>Viveros de Cabrera – Cerro de San Miguel</h4>
+    </div>
+    <p style="text-align:justify">A partir de la zona de viveros en la colonia Cabrera continúa tu recorrido en la Ciudad de las Flores por la calle 17 norte, que te conducirá al empedrado camino rumbo al Cerro de San Miguel. Si tu paseo lo haces caminando puedes subir por el callejón Chicomecoatl, nombre que lleva en honor a la “Diosa de la Subsistencia y el Maíz”; sigue la trayectoria por la calle Circunvalación Xochiquetzal “Diosa de la Belleza y el Amor”, para llegar a las canchas deportivas que se encuentran a mitad de la famosa colina. Continúa hasta la explanada del cerro, donde toma lugar el evento más importante de la ciudad: “El HueyAtlixcáyotl”, el último domingo de septiembre, para observar un Atlixco con vista panorámica que de manera armoniosa te envuelve del mejor clima del mundo y te hace disfrutar de un ambiente limpio y natural… y… ¡Aún hay más!… puedes conocer la zona desde diferentes miradores hasta llegar al más alto de ellos: La ermita dedicada a San Miguel Arcángel, que guarda una hermosa historia en su interior.</p>
+    <div style="background-color:#09F">
+     <h4>Zócalo de la Ciudad – Cerro de San Miguel</h4>
+    </div>
+    <p style="text-align:justify">Descubre cada rincón de Atlixco comenzando en el centro de la ciudad. Extiende tu paseo desde el zócalo hacia la Avenida Miguel Hidalgo para pasar por la antigua Iglesia de la Tercer Orden, siguiendo por la calzada 16 de Septiembre para llegar a la Plazuela Fray Toribio de Benavente que se muestra al público como antesala del Convento e Iglesia de San Francisco. Sigue el recorrido hacia la Circunvalación Tláloc, distinguida así en honor al “Dios de la Lluvia”, y sube por alguno de sus callejones que de igual forma veneran con su nombre a algunos Dioses de nuestros antepasados. Después de tu paso por las canchas deportivas de la zona sigue el camino empedrado hasta llegar a la explanada del cerro, cuna del evento donde las culturas de la zona se funden: “El HueyAtlixcáyolt” y disfruta del bello paisaje que se muestra desde este punto. Finalmente, motivado por el mejor clima del mundo y la naturaleza que envuelve el lugar, detente en los miradores acondicionados para tu visita y dirige tu rumbo hacia la ermita de San Miguel Arcángel, guardián de toda nuestra ciudad.</p>
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <a href="#principal" id="D" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+  </div>
+ </div>  
+ <!-- RECORRIDOS -->
+ 
+ <!-- CONSEJOS -->
+ <div data-role="page" id="CONSEJOS" >   
+  <div data-role="header">
+    <h1>CONSEJOS</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div style="background-color:#09F">
+     <h4>Antes de visitar Atlixco…</h4>
+    </div>
+    <p style="text-align:justify">¡Infórmate de las fechas de nuestros desfiles y celebraciones que se presentan a lo largo del año para que formes parte de ellos!
+Solicita información acerca de las rutas que te conducen a la ciudad para calcular tiempo y asegurarte de viajar por el camino correcto.
+Planifica tu estancia y los lugares que te gustaría visitar para administrar tu tiempo y dinero conociendo cada rincón de nuestra ciudad.
+Si tomas algún medicamento, ¡No olvides llevarlo contigo!, así como una botella de agua y pañuelos si es necesario.
+Utiliza ropa, calzado y bolso cómodos que te permitan disfrutar el paseo de forma placentera.
+Cuida tu piel, evita exponerte al sol por largos periodos de tiempo, de preferencia lleva contigo bloqueador solar, gorra y gafas.
+Ten a la mano tu cámara fotográfica para plasmar los bellos paisajes, lugares y momentos que pasarás en la ciudad, recuerda las baterías y en su caso rollos o espacio en tu memoria.
+Si no estás acostumbrado al modo de preparación que tiene la comida de la zona, es importante que cuentes con alguna opinión respecto a los platillos que pretendes degustar para que tu experiencia en la gastronomía sea la mejor.
+Si llevas aparatos eléctricos recuerda que el voltaje de la red eléctrica en México es de 127V 60Hz y si es el caso ten a tu disposición baterías cargadas para los mismos.</p>
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <a href="#principal" id="E" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+  </div>
+ </div>  
+ <!-- CONSEJOS -->
+ 
+ <!-- IMPERDIBLES -->
+ <div data-role="page" id="IMPERDIBLES" >   
+  <div data-role="header">
+    <h1>IMPERDIBLES</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div style="background-color:#09F">
+     <h4>Centro Histórico</h4>
+    </div>
+    <p style="text-align:justify">Una vuelta por el zócalo es una experiencia inolvidable, saboreando los ricos helados y sorbetes que venden cerca de allí, así mismo entrar a algún restaurante para degustar la cecina atlixquense, el guacamole, el consomé Atlixquense, o las truchas en sus diferentes modalidades. A tan solo una cuadra del centro, en el mercado encontrarás tortillas hechas a mano, expendios de cecina, tlacoyos, quesos frescos de la región o si eres de “gustoso paladar” podrás comer los originales chapulines fritos con sal y limón.</p>
+    <div style="background-color:#09F">
+     <h4>Viveros</h4>
+    </div>
+    <p style="text-align:justify">Atlixco es un productor agrícola altamente reconocido a nivel nacional e internacional por su gran variedad y calidad de árboles ornamentales y frutales, así como de plantas y flores para huerto o decoración; así que no dejes pasar la oportunidad de visitar la zona de viveros, en donde encontrarás un paraíso lleno de color y aroma que se presenta en armonía para deleitar a residentes y visitantes de la ciudad.</p>
+    <div style="background-color:#09F">
+     <h4>Cerro de San Miguel</h4>
+    </div>
+    <p style="text-align:justify">Si tienes ánimo aventurero te invitamos a subir al Cerro de San Miguel para que eches un vistazo de la ciudad desde sus miradores y si todavía te quedan un poco de fuerzas, que subas la escalinata hasta la hermita dedicada al Arcángel San Miguel, que cuenta la historia, encerró al diablito que hacía de las suyas en los solares dentro del pozo que se encuentra ahí. Al descender de la cima puedes visitar el Ex Convento Franciscano y disfruta de esta Iglesia tipo fuerte, única en el Estado; además de su bello retablo restaurado por la Asociación “Adopte Una Obra de Arte” y podrás admirar la hermosa vista del poniente de la ciudad desde su atrio. Muchas parejas escogen esta bella Iglesia para su boda</p>
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <a href="#principal" id="F" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+  </div>
+ </div>  
+ <!-- IMPERDIBLES -->
+
+ 
+ 
+
+ 
+
+ </body>
+</html> 
